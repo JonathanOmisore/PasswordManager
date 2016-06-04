@@ -6,7 +6,7 @@ from Crypto.Cipher import AES
 from Crypto.Hash import SHA256
 import base64
 f = open("/home/jonathan/Dropbox/abcdefg", "a")
-key='' //enter key
+key='' #enter key
 cipher = AES.new(key,AES.MODE_CFB, '1234567890123456')
 decryptor = AES.new(key, AES.MODE_CFB, '9348493023950485')
 def checkargumentistoolong(argument):
